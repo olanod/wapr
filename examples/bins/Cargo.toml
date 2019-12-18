@@ -1,0 +1,16 @@
+[package]
+name = "bins"
+version = "0.1.0"
+authors = ["Daniel Olano <danielolanoc@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "random_kitty"
+path = "random_kitty.rs"
+
+[[bin]]
+name = "multiply"
+path = "multiply.rs"
+
+[dependencies]
+rand = "0.7.2"

@@ -7,3 +7,5 @@ edition = "2018"
 [dependencies]
 log = "0.4.8"
 stderrlog = "0.4.3"
+wasmtime-wasi = "0.8.0"
+wasmtime = "0.8.0"
